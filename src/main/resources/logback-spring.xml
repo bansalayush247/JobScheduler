@@ -1,0 +1,47 @@
+<configuration>
+
+    <property name="LOG_PATH" value="logs"/>
+    <property name="LOG_FILE" value="${LOG_PATH}/jobscheduler.log"/>
+
+    <!-- Rolling File Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- Current Active Log File -->
+        <file>${LOG_FILE}</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <!-- Daily rollover + ZIP compression -->
+            <fileNamePattern>
+                ${LOG_PATH}/jobscheduler.%d{yyyy-MM-dd}.log.zip
+            </fileNamePattern>
+
+            <!-- Keep logs for 90 days (≈ 3 months) -->
+            <maxHistory>90</maxHistory>
+
+            <!--  total log size cap (example 5GB) -->
+            <totalSizeCap>5GB</totalSizeCap>
+
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} |
+                level=%-5level |
+                requestId=%X{requestId} |
+                method=%X{method} |
+                path=%X{path} |
+                thread=%thread |
+                logger=%logger{36} |
+                msg=%msg%n
+            </pattern>
+        </encoder>
+
+    </appender>
+
+    <!-- Root Logger -->
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
