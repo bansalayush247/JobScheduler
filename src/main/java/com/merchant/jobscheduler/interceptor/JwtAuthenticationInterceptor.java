@@ -71,9 +71,20 @@ public class JwtAuthenticationInterceptor implements HandlerInterceptor {
             return false;
         }
 
-        // Store user in request for later use
-        request.setAttribute("authenticatedUser", user);
+        // Create job restriction
+        if (path.equals("/api/jobs")
+                && request.getMethod().equals("POST")
+                && !(user.getRole().getName().equals("ADMIN")
+                || user.getRole().getName().equals("MANAGER"))) {
 
-        return true;
+            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+            response.getWriter().write("Access Denied");
+            return false;
+        }
+
+            // Store user in request for later use
+            request.setAttribute("authenticatedUser", user);
+
+            return true;
+        }
     }
-}
