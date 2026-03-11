@@ -4,26 +4,34 @@ import com.merchant.jobscheduler.job.entity.ScheduledJob;
 import com.merchant.jobscheduler.job.enums.JobStatus;
 import com.merchant.jobscheduler.job.repository.ScheduledJobRepository;
 import com.merchant.jobscheduler.job.dto.CreateJobRequest;
+import com.merchant.jobscheduler.job.dto.UpdateJobRequest;
 import com.merchant.jobscheduler.job.constants.JobConstants;
+import com.merchant.jobscheduler.job.service.JobService;
+import com.merchant.jobscheduler.job.dto.JobResponse;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.scheduling.support.CronExpression;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/jobs")
 public class JobController {
 
     private final ScheduledJobRepository repository;
+    private final JobService jobService;
 
-    public JobController(ScheduledJobRepository repository) {
+    public JobController(ScheduledJobRepository repository,
+                         JobService jobService) {
         this.repository = repository;
+        this.jobService = jobService;
     }
 
     @PostMapping
-    public ResponseEntity<?> createJob(@RequestBody CreateJobRequest request) {
+    public ResponseEntity<JobResponse> createJob(@RequestBody CreateJobRequest request) {
 
         ScheduledJob job = new ScheduledJob();
 
@@ -31,14 +39,14 @@ public class JobController {
         job.setWebhookUrl(request.webhookUrl());
         job.setPayload(request.payload());
         job.setCronExpression(request.cronExpression());
+
         job.setMaxRetries(
                 request.maxRetries() != null
                         ? request.maxRetries()
                         : JobConstants.DEFAULT_MAX_RETRIES
         );
 
-        CronExpression cron =
-                CronExpression.parse(request.cronExpression());
+        CronExpression cron = CronExpression.parse(request.cronExpression());
 
         job.setNextExecutionTime(
                 cron.next(LocalDateTime.now())
@@ -49,6 +57,43 @@ public class JobController {
 
         repository.save(job);
 
-        return ResponseEntity.ok("Job created successfully");
+        JobResponse response = new JobResponse(
+                job.getId(),
+                job.getJobName(),
+                job.getStatus(),
+                job.getCronExpression(),
+                job.getNextExecutionTime()
+        );
+
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping
+    public List<ScheduledJob> getAllJobs() {
+        return repository.findAll();
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> deleteJob(@PathVariable UUID id) {
+
+        if (!repository.existsById(id)) {
+            return ResponseEntity
+                    .status(404)
+                    .body("Job not found");
+        }
+
+        repository.deleteById(id);
+
+        return ResponseEntity.ok("Job deleted successfully");
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<JobResponse> updateJob(
+            @PathVariable UUID id,
+            @RequestBody UpdateJobRequest request) {
+
+        JobResponse response = jobService.updateJob(id, request);
+
+        return ResponseEntity.ok(response);
     }
 }
