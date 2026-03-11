@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
 
@@ -43,8 +42,8 @@ public class JobExecutor {
                             String.class
                     );
 
-            System.out.println("Response status: " + response.getStatusCode());
-            System.out.println("Response body: " + response.getBody());
+            log.info("Webhook response status={}", response.getStatusCode());
+            log.debug("Webhook response body={}", response.getBody());
             log.info("Job executed successfully: {}", job.getId());
 
         } catch (Exception e) {

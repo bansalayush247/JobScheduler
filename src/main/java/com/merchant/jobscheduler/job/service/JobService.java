@@ -118,4 +118,36 @@ public class JobService {
                 job.getNextExecutionTime()
         );
     }
+
+    public void pauseJob(UUID id) {
+
+        ScheduledJob job = repository.findById(id)
+                .orElseThrow(() -> new CustomException(
+                        ErrorCodes.JOB_NOT_FOUND,
+                        "Job not found"
+                ));
+
+        job.setStatus(JobStatus.PAUSED);
+
+        repository.save(job);
+    }
+
+    public void resumeJob(UUID id) {
+
+        ScheduledJob job = repository.findById(id)
+                .orElseThrow(() -> new CustomException(
+                        ErrorCodes.JOB_NOT_FOUND,
+                        "Job not found"
+                ));
+
+        job.setStatus(JobStatus.PENDING);
+
+        CronExpression cron = CronExpression.parse(job.getCronExpression());
+
+        job.setNextExecutionTime(
+                cron.next(LocalDateTime.now())
+        );
+
+        repository.save(job);
+    }
 }

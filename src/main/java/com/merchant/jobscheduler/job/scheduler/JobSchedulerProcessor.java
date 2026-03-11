@@ -40,19 +40,26 @@ public class JobSchedulerProcessor {
     )
     public void pollAndExecuteJobs() {
 
-        log.info("Checking for pending jobs...");
-        System.out.println("Scheduled Triggered");
-        System.out.println("Java time: "+LocalDateTime.now());
+        log.info("Checking for pending jobs at {}", LocalDateTime.now());
+
         List<ScheduledJob> jobs =
                 repository.findByNextExecutionTimeBeforeAndStatusIn(
                         LocalDateTime.now(),
-                        List.of(JobStatus.PENDING,
-                                JobStatus.RETRY_SCHEDULED)
+                        List.of(JobStatus.PENDING, JobStatus.RETRY_SCHEDULED)
                 );
-        System.out.println("Jobs found: "+jobs.size());
+
+        log.info("Jobs found: {}", jobs.size());
+
         for (ScheduledJob job : jobs) {
-            System.out.println("Executing jobs: "+job.getId());
-            service.processJob(job);
+
+            log.info("Executing job: {}", job.getId());
+
+            try {
+                service.processJob(job);
+            } catch (Exception ex) {
+
+                log.error("Job execution failed for jobId={}", job.getId(), ex);
+            }
         }
     }
 }

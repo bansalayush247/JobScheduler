@@ -8,6 +8,7 @@ import com.merchant.jobscheduler.job.dto.UpdateJobRequest;
 import com.merchant.jobscheduler.job.constants.JobConstants;
 import com.merchant.jobscheduler.job.service.JobService;
 import com.merchant.jobscheduler.job.dto.JobResponse;
+import com.merchant.jobscheduler.job.dto.ApiResponse;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -95,5 +96,33 @@ public class JobController {
         JobResponse response = jobService.updateJob(id, request);
 
         return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/{id}/pause")
+    public ResponseEntity<ApiResponse<String>> pauseJob(@PathVariable UUID id) {
+
+        jobService.pauseJob(id);
+
+        return ResponseEntity.ok(
+                new ApiResponse<>(
+                        true,
+                        "Job paused successfully",
+                        id.toString()
+                )
+        );
+    }
+
+    @PostMapping("/{id}/resume")
+    public ResponseEntity<ApiResponse<String>> resumeJob(@PathVariable UUID id) {
+
+        jobService.resumeJob(id);
+
+        return ResponseEntity.ok(
+                new ApiResponse<>(
+                        true,
+                        "Job resumed successfully",
+                        id.toString()
+                )
+        );
     }
 }
