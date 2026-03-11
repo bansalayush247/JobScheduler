@@ -3,10 +3,12 @@ package com.merchant.jobscheduler.interceptor;
 import com.merchant.jobscheduler.entity.User;
 import com.merchant.jobscheduler.repository.UserRepository;
 import com.merchant.jobscheduler.security.JwtTokenProvider;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.util.AntPathMatcher;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.util.UUID;
 
@@ -15,6 +17,7 @@ public class JwtAuthenticationInterceptor implements HandlerInterceptor {
 
     private final JwtTokenProvider jwtProvider;
     private final UserRepository userRepository;
+    private final AntPathMatcher pathMatcher = new AntPathMatcher();
 
     public JwtAuthenticationInterceptor(JwtTokenProvider jwtProvider,
                                         UserRepository userRepository) {
@@ -27,64 +30,88 @@ public class JwtAuthenticationInterceptor implements HandlerInterceptor {
                              HttpServletResponse response,
                              Object handler) throws Exception {
 
-        String path = request.getRequestURI();   // ✅ MUST BE HERE
+        try {
 
-        // Allow public APIs
-        if (path.startsWith("/api/auth")) {
-            return true;
-        }
+            String path = request.getRequestURI();
+            String method = request.getMethod();
 
-        String authHeader = request.getHeader("Authorization");
+            // Allow auth APIs
+            if (path.startsWith("/api/auth")) {
+                return true;
+            }
 
-        if (authHeader == null || !authHeader.startsWith("Bearer ")) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            response.getWriter().write("Missing or invalid Authorization header");
-            return false;
-        }
+            // Extract token
+            String authHeader = request.getHeader("Authorization");
 
-        String token = authHeader.substring(7);
+            if (authHeader == null || !authHeader.startsWith("Bearer ")) {
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+                response.getWriter().write("Missing Authorization header");
+                return false;
+            }
 
-        if (!jwtProvider.validate(token)) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            response.getWriter().write("Invalid or expired token");
-            return false;
-        }
+            String token = authHeader.substring(7);
 
-        String userId = jwtProvider.getUserId(token);
+            if (!jwtProvider.validate(token)) {
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+                response.getWriter().write("Invalid token");
+                return false;
+            }
 
-        User user = userRepository.findById(UUID.fromString(userId))
-                .orElse(null);
+            String userId = jwtProvider.getUserId(token);
 
-        if (user == null) {
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            response.getWriter().write("User not found");
-            return false;
-        }
+            User user = userRepository
+                    .findById(UUID.fromString(userId))
+                    .orElse(null);
 
-        // ✅ Role-based restriction (Admin APIs)
-        if (path.startsWith("/api/admin")
-                && !user.getRole().getName().equals("ADMIN")) {
+            if (user == null) {
+                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+                response.getWriter().write("User not found");
+                return false;
+            }
 
-            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
-            response.setContentType("application/json");
-            response.getWriter().write("{\"error\": \"Access Denied\"}");
-            return false;
-        }
+            String permittedApis = user.getRole().getPermittedApi();
 
-        // Create job restriction
-        if (path.equals("/api/jobs")
-                && request.getMethod().equals("POST")
-                && !(user.getRole().getName().equals("ADMIN")
-                || user.getRole().getName().equals("MANAGER"))) {
+            if (!isAllowed(permittedApis, path, method)) {
+                response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                response.getWriter().write("Access Denied");
+                return false;
+            }
 
-            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
-            response.getWriter().write("Access Denied");
-            return false;
-        }
-
-            // Store user in request for later use
+            // Store authenticated user for controller/service use
             request.setAttribute("authenticatedUser", user);
 
             return true;
+
+        } catch (Exception e) {
+
+            response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
+            response.getWriter().write("Internal Server Error");
+
+            return false;
         }
     }
+    private boolean isAllowed(String permittedApis, String requestPath, String method) {
+
+        if (permittedApis == null || permittedApis.isEmpty()) {
+            return false;
+        }
+
+        String[] permissions = permittedApis.split(",");
+        for (String permission : permissions) {
+
+            String[] parts = permission.trim().split(":");
+
+            if (parts.length != 2) continue;
+            String apiPattern = parts[0].trim();
+            String allowedMethod = parts[1].trim();
+            boolean pathMatches = pathMatcher.match(apiPattern, requestPath);
+            boolean methodMatches = allowedMethod.equalsIgnoreCase(method);
+
+            if (pathMatches && methodMatches) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+}

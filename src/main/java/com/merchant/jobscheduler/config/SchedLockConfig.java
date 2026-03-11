@@ -8,6 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import net.javacrumbs.shedlock.core.LockProvider;
 import net.javacrumbs.shedlock.provider.jdbctemplate.JdbcTemplateLockProvider;
 
+import java.util.UUID;
+
 @Configuration
 public class SchedLockConfig {
 
@@ -17,6 +19,9 @@ public class SchedLockConfig {
                 JdbcTemplateLockProvider.Configuration.builder()
                         .withJdbcTemplate(new JdbcTemplate(dataSource))
                         .usingDbTime()
+                        .withLockedByValue(
+                                UUID.randomUUID().toString()
+                        )
                         .build()
         );
     }

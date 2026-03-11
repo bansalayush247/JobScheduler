@@ -8,4 +8,5 @@ public class ErrorCodes {
     public static final String ROLE_NOT_FOUND ="ERR004";
     public static final String ADMIN_ALREADY_EXISTS= "ERR005";
     public static final String ADMIN_ROLE_CHANGE_NOT_ALLOWED= "ERR006";
+    public static final String JOB_NOT_FOUND= "ERR007";
 }
