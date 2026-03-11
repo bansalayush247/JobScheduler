@@ -94,10 +94,10 @@ Update Job
 PUT /api/jobs/{id}
 ```
 
-Update Cron
+Update Cron and Payload
 
 ```
-PUT /api/jobs/{id}/cron
+PUT /api/jobs/{id}
 ```
 
 Pause Job

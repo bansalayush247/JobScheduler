@@ -5522,3 +5522,2615 @@ This generated password is for development use only. Your security configuration
                 thread=SpringApplicationShutdownHook |
                 logger=com.zaxxer.hikari.HikariDataSource |
                 msg=HikariPool-1 - Shutdown completed.
+2026-03-11 16:54:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 16:54:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=Starting JobschedulerApplication using Java 17.0.12 with PID 28548 (C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 16:54:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 90 ms. Found 3 JPA repository interfaces.
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.boot.tomcat.TomcatWebServer |
+                msg=Tomcat initialized with port 8080 (http)
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.coyote.http11.Http11NioProtocol |
+                msg=Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardService |
+                msg=Starting service [Tomcat]
+2026-03-11 16:54:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardEngine |
+                msg=Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-11 16:54:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.w.c.s.WebApplicationContextInitializer |
+                msg=Root WebApplicationContext: initialization completed in 1392 ms
+2026-03-11 16:54:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 16:54:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 16:54:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 16:54:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 16:54:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d57fb9e
+2026-03-11 16:54:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 16:54:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 16:54:17 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 16:54:17 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 16:54:17 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 16:54:18 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration |
+                msg=spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-11 16:54:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.coyote.http11.Http11NioProtocol |
+                msg=Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 16:54:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.boot.tomcat.TomcatWebServer |
+                msg=Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 16:54:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=Started JobschedulerApplication in 5.673 seconds (process running for 6.177)
+2026-03-11 16:54:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:54:18.689683100
+2026-03-11 16:54:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 1
+2026-03-11 16:54:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 16:54:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 16:54:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:54:30.093395200
+2026-03-11 16:54:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:54:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:54:40.153743400
+2026-03-11 16:54:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:54:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:54:50.193346800
+2026-03-11 16:54:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:00.232385
+2026-03-11 16:55:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:10.266563200
+2026-03-11 16:55:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:20.308105700
+2026-03-11 16:55:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:30.353756500
+2026-03-11 16:55:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:40.397585500
+2026-03-11 16:55:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:55:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:55:50.448873900
+2026-03-11 16:55:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:00.478349800
+2026-03-11 16:56:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:10.533994200
+2026-03-11 16:56:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:20.581827300
+2026-03-11 16:56:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:30.626436900
+2026-03-11 16:56:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:40.676979400
+2026-03-11 16:56:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:56:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:56:50.730253700
+2026-03-11 16:56:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:00.773501300
+2026-03-11 16:57:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:10.828273300
+2026-03-11 16:57:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:20.880026300
+2026-03-11 16:57:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:30.940158700
+2026-03-11 16:57:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:40.977226400
+2026-03-11 16:57:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:57:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:57:51.025190900
+2026-03-11 16:57:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:01.067938
+2026-03-11 16:58:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:11.106587800
+2026-03-11 16:58:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:21.143113200
+2026-03-11 16:58:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:31.185207900
+2026-03-11 16:58:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:41.236475600
+2026-03-11 16:58:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:58:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:58:51.284131800
+2026-03-11 16:58:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:01.332069400
+2026-03-11 16:59:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:11.373189500
+2026-03-11 16:59:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:21.414025600
+2026-03-11 16:59:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:31.457741600
+2026-03-11 16:59:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:41.495646300
+2026-03-11 16:59:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 16:59:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T16:59:51.537221300
+2026-03-11 16:59:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:00:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:01.583575800
+2026-03-11 17:00:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 1
+2026-03-11 17:00:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 17:00:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 17:00:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:12.334268800
+2026-03-11 17:00:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:00:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:22.380957200
+2026-03-11 17:00:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:00:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:32.410227700
+2026-03-11 17:00:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:00:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:42.449809100
+2026-03-11 17:00:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:00:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:00:52.488452500
+2026-03-11 17:00:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:02.523694500
+2026-03-11 17:01:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:12.553029400
+2026-03-11 17:01:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:22.590235700
+2026-03-11 17:01:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:32.615886
+2026-03-11 17:01:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:42.651403
+2026-03-11 17:01:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:01:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:01:52.676665
+2026-03-11 17:01:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:02.699715200
+2026-03-11 17:02:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:12.725956
+2026-03-11 17:02:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:22.764587100
+2026-03-11 17:02:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:32.783718800
+2026-03-11 17:02:32 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:42.809691400
+2026-03-11 17:02:42 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:02:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:02:52.836560600
+2026-03-11 17:02:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-03-11 17:03:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=o.s.boot.tomcat.GracefulShutdown |
+                msg=Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 17:03:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=tomcat-shutdown |
+                logger=o.s.boot.tomcat.GracefulShutdown |
+                msg=Graceful shutdown complete
+2026-03-11 17:03:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:03:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:03:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
+2026-03-11 17:03:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 17:03:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=Starting JobschedulerApplication using Java 17.0.12 with PID 9208 (C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 17:03:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.boot.tomcat.TomcatWebServer |
+                msg=Tomcat initialized with port 8080 (http)
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.coyote.http11.Http11NioProtocol |
+                msg=Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardService |
+                msg=Starting service [Tomcat]
+2026-03-11 17:03:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardEngine |
+                msg=Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-11 17:03:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.w.c.s.WebApplicationContextInitializer |
+                msg=Root WebApplicationContext: initialization completed in 1455 ms
+2026-03-11 17:03:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 17:03:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 17:03:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 17:03:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 17:03:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fefb66c
+2026-03-11 17:03:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 17:03:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 17:03:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 17:03:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:03:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 17:03:22 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext |
+                msg=Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-03-11 17:03:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:03:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:03:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
+2026-03-11 17:03:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardService |
+                msg=Stopping service [Tomcat]
+2026-03-11 17:03:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.a.l.ConditionEvaluationReportLogger |
+                msg=
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-11 17:03:23 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.d.LoggingFailureAnalysisReporter |
+                msg=
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.merchant.jobscheduler.service.AuthService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2026-03-11 17:04:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 17:04:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=Starting JobschedulerApplicationTests using Java 17.0.12 with PID 27396 (started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 17:04:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:04:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 17:04:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2026-03-11 17:04:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 17:04:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 17:04:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 17:04:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 17:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60fe75f7
+2026-03-11 17:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 17:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 17:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 17:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:05:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 17:05:00 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.w.c.s.GenericWebApplicationContext |
+                msg=Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-03-11 17:05:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:05:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:05:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
+2026-03-11 17:05:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.a.l.ConditionEvaluationReportLogger |
+                msg=
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-11 17:05:00 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.d.LoggingFailureAnalysisReporter |
+                msg=
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.merchant.jobscheduler.service.AuthService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2026-03-11 17:05:00 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.test.context.TestContextManager |
+                msg=Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.merchant.jobscheduler.JobschedulerApplicationTests@70a81b4e]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@283645fa testClass = com.merchant.jobscheduler.JobschedulerApplicationTests, locations = [], classes = [com.merchant.jobscheduler.JobschedulerApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6731787b, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@34a1d21f, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@563da5dd], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:195)
+	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:210)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:156)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:605)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:156)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:115)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167)
+	... 88 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 114 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2297)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 128 common frames omitted
+2026-03-11 17:08:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 17:08:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=Starting JobschedulerApplicationTests using Java 17.0.12 with PID 21960 (started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 17:08:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:08:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 17:08:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 102 ms. Found 3 JPA repository interfaces.
+2026-03-11 17:08:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 17:08:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 17:08:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 17:08:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 17:08:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e26c308
+2026-03-11 17:08:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 17:08:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 17:08:12 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.w.c.s.GenericWebApplicationContext |
+                msg=Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
+2026-03-11 17:08:12 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.a.l.ConditionEvaluationReportLogger |
+                msg=
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-11 17:08:12 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.d.LoggingFailureAnalysisReporter |
+                msg=
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.merchant.jobscheduler.service.AuthService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2026-03-11 17:08:12 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.test.context.TestContextManager |
+                msg=Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.merchant.jobscheduler.JobschedulerApplicationTests@70a81b4e]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@283645fa testClass = com.merchant.jobscheduler.JobschedulerApplicationTests, locations = [], classes = [com.merchant.jobscheduler.JobschedulerApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6731787b, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@34a1d21f, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@563da5dd], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:195)
+	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:210)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:156)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:605)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:156)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:115)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167)
+	... 88 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 114 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2297)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 128 common frames omitted
+2026-03-11 17:08:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 17:08:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=Starting JobschedulerApplicationTests using Java 17.0.12 with PID 15644 (started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 17:08:52 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:08:53 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 17:08:53 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2026-03-11 17:08:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 17:08:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 17:08:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 17:08:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 17:08:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60fe75f7
+2026-03-11 17:08:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 17:08:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 17:08:57 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.w.c.s.GenericWebApplicationContext |
+                msg=Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
+2026-03-11 17:08:57 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.a.l.ConditionEvaluationReportLogger |
+                msg=
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-11 17:08:57 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.d.LoggingFailureAnalysisReporter |
+                msg=
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.merchant.jobscheduler.service.AuthService required a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.crypto.password.PasswordEncoder' in your configuration.
+
+2026-03-11 17:08:57 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.test.context.TestContextManager |
+                msg=Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [com.merchant.jobscheduler.JobschedulerApplicationTests@70a81b4e]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@283645fa testClass = com.merchant.jobscheduler.JobschedulerApplicationTests, locations = [], classes = [com.merchant.jobscheduler.JobschedulerApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.web.server.context.SpringBootTestRandomPortContextCustomizer@5b408dc3, org.springframework.boot.test.context.PropertyMappingContextCustomizer@0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e8f7922, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6731787b, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@34a1d21f, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@563da5dd], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:195)
+	at org.springframework.test.context.cache.DefaultContextCache.put(DefaultContextCache.java:214)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:160)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:128)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:200)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:139)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:210)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$1(ClassBasedTestDescriptor.java:423)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:428)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$0(ClassBasedTestDescriptor.java:422)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:422)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$0(ClassBasedTestDescriptor.java:334)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:333)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$1(ClassBasedTestDescriptor.java:322)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$0(ClassBasedTestDescriptor.java:321)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:126)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:110)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$2(SpringBootContextLoader.java:156)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1465)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:605)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:156)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:115)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:247)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.lambda$loadContext$0(DefaultCacheAwareContextLoaderDelegate.java:167)
+	... 88 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes\com\merchant\jobscheduler\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 114 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.password.PasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2297)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1725)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 128 common frames omitted
+2026-03-11 17:10:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-03-11 17:10:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=Starting JobschedulerApplicationTests using Java 17.0.12 with PID 27352 (started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler)
+2026-03-11 17:10:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:10:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-11 17:10:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2026-03-11 17:10:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-11 17:10:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-11 17:10:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-11 17:10:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-03-11 17:10:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce0bbd5
+2026-03-11 17:10:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-03-11 17:10:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-11 17:10:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-11 17:10:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:10:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-11 17:10:27 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration |
+                msg=spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-11 17:10:27 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.s.a.UserDetailsServiceAutoConfiguration |
+                msg=
+
+Using generated security password: f34a5a77-65fb-496e-9151-29579dccbbd5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-11 17:10:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer |
+                msg=Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-11 17:10:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplicationTests |
+                msg=Started JobschedulerApplicationTests in 7.308 seconds (process running for 8.943)
+2026-03-11 17:10:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-03-11T17:10:28.540035600
+2026-03-11 17:10:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 1
+2026-03-11 17:10:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 17:10:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 7f5c84a3-a400-4890-995f-0ad9bc0ec13e
+2026-03-11 17:10:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-11 17:10:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-03-11 17:10:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
