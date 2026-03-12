@@ -17,10 +17,8 @@ public class AdminController {
     }
 
     @PutMapping("/users/{userId}/role")
-    public ResponseEntity<String> upgradeRole(
-            @PathVariable UUID userId,
-            @RequestParam String roleName) {
-
+    public ResponseEntity<String> upgradeRole(@PathVariable UUID userId, @RequestParam String roleName)
+    {
         userService.upgradeUserRole(userId, roleName);
         return ResponseEntity.ok("Role updated successfully");
     }

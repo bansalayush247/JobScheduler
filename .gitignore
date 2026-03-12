@@ -14,9 +14,7 @@ logs/
 log/
 
 ### Spring Boot ###
-application-local.properties
-application-dev.properties
-application-prod.properties
+application.properties
 
 ### IDE - IntelliJ ###
 .idea/

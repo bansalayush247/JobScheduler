@@ -25,8 +25,7 @@ public class JobController {
     private final ScheduledJobRepository repository;
     private final JobService jobService;
 
-    public JobController(ScheduledJobRepository repository,
-                         JobService jobService) {
+    public JobController(ScheduledJobRepository repository, JobService jobService) {
         this.repository = repository;
         this.jobService = jobService;
     }
@@ -41,17 +40,11 @@ public class JobController {
         job.setPayload(request.payload());
         job.setCronExpression(request.cronExpression());
 
-        job.setMaxRetries(
-                request.maxRetries() != null
-                        ? request.maxRetries()
-                        : JobConstants.DEFAULT_MAX_RETRIES
-        );
+        job.setMaxRetries(request.maxRetries() != null ? request.maxRetries() : JobConstants.DEFAULT_MAX_RETRIES);
 
         CronExpression cron = CronExpression.parse(request.cronExpression());
 
-        job.setNextExecutionTime(
-                cron.next(LocalDateTime.now())
-        );
+        job.setNextExecutionTime(cron.next(LocalDateTime.now()));
 
         job.setStatus(JobStatus.PENDING);
         job.setCreatedAt(LocalDateTime.now());
@@ -78,9 +71,7 @@ public class JobController {
     public ResponseEntity<?> deleteJob(@PathVariable UUID id) {
 
         if (!repository.existsById(id)) {
-            return ResponseEntity
-                    .status(404)
-                    .body("Job not found");
+            return ResponseEntity.status(404).body("Job not found");
         }
 
         repository.deleteById(id);
@@ -89,9 +80,7 @@ public class JobController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<JobResponse> updateJob(
-            @PathVariable UUID id,
-            @RequestBody UpdateJobRequest request) {
+    public ResponseEntity<JobResponse> updateJob(@PathVariable UUID id, @RequestBody UpdateJobRequest request) {
 
         JobResponse response = jobService.updateJob(id, request);
 
@@ -103,13 +92,7 @@ public class JobController {
 
         jobService.pauseJob(id);
 
-        return ResponseEntity.ok(
-                new ApiResponse<>(
-                        true,
-                        "Job paused successfully",
-                        id.toString()
-                )
-        );
+        return ResponseEntity.ok(new ApiResponse<>(true, "Job paused successfully", id.toString()));
     }
 
     @PostMapping("/{id}/resume")
@@ -117,12 +100,6 @@ public class JobController {
 
         jobService.resumeJob(id);
 
-        return ResponseEntity.ok(
-                new ApiResponse<>(
-                        true,
-                        "Job resumed successfully",
-                        id.toString()
-                )
-        );
+        return ResponseEntity.ok(new ApiResponse<>(true, "Job resumed successfully", id.toString()));
     }
 }

@@ -44,19 +44,13 @@ public class JwtTokenProvider {
 
     public boolean validate(String token) {
         try {
-            return getClaims(token)
-                    .getExpiration()
-                    .after(new Date());
+            return getClaims(token).getExpiration().after(new Date());
         } catch (JwtException | IllegalArgumentException e) {
             return false;
         }
     }
 
     private Claims getClaims(String token) {
-        return Jwts.parser()
-                .verifyWith(getKey())
-                .build()
-                .parseSignedClaims(token)
-                .getPayload();
+        return Jwts.parser().verifyWith(getKey()).build().parseSignedClaims(token).getPayload();
     }
 }

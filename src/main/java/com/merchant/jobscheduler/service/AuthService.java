@@ -19,8 +19,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthService {
 
-    private static final Logger logger =
-            LoggerFactory.getLogger(AuthService.class);
+    private static final Logger logger = LoggerFactory.getLogger(AuthService.class);
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
@@ -45,14 +44,10 @@ public class AuthService {
 
             logger.error("Registration failed. Email already exists: {}", request.email());
 
-            throw new CustomException(
-                    ErrorCodes.EMAIL_ALREADY_EXISTS,
-                    "Email already registered"
-            );
+            throw new CustomException(ErrorCodes.EMAIL_ALREADY_EXISTS, "Email already registered");
         }
 
-        Role role = roleRepository.findByName("USER")
-                .orElseThrow(() -> new CustomException(
+        Role role = roleRepository.findByName("USER").orElseThrow(() -> new CustomException(
                         ErrorCodes.USER_NOT_FOUND,
                         "Default role not found"
                 ));
@@ -72,37 +67,24 @@ public class AuthService {
 
         logger.info("Login attempt for email: {}", request.email());
 
-        User user = userRepository.findByEmail(request.email())
-                .orElseThrow(() -> {
+        User user = userRepository.findByEmail(request.email()).orElseThrow(() -> {
 
                     logger.error("Login failed. User not found: {}", request.email());
 
-                    return new CustomException(
-                            ErrorCodes.INVALID_CREDENTIALS,
-                            "Invalid credentials"
-                    );
+                    return new CustomException(ErrorCodes.INVALID_CREDENTIALS, "Invalid credentials");
                 });
 
         if (!encoder.matches(request.password(), user.getPassword())) {
 
             logger.error("Login failed. Invalid password for email: {}", request.email());
 
-            throw new CustomException(
-                    ErrorCodes.INVALID_CREDENTIALS,
-                    "Invalid credentials"
-            );
+            throw new CustomException(ErrorCodes.INVALID_CREDENTIALS, "Invalid credentials");
         }
 
-        String token = jwtProvider.generateToken(
-                user.getId().toString(),
-                user.getRole().getName()
-        );
+        String token = jwtProvider.generateToken(user.getId().toString(), user.getRole().getName());
 
         logger.info("Login successful for email: {}", request.email());
 
-        return new LoginResponse(
-                user.getId().toString(),
-                token
-        );
+        return new LoginResponse(user.getId().toString(), token);
     }
 }

@@ -11,8 +11,5 @@ import java.util.UUID;
 
 public interface ScheduledJobRepository extends JpaRepository<ScheduledJob, UUID> {
 
-    List<ScheduledJob> findByNextExecutionTimeBeforeAndStatusIn(
-            LocalDateTime time,
-            List<JobStatus> statuses
-    );
+    List<ScheduledJob> findByNextExecutionTimeBeforeAndStatusIn(LocalDateTime time, List<JobStatus> statuses );
 }
