@@ -18,8 +18,7 @@ import java.util.Map;
 @Component
 public class JobExecutor {
 
-    private static final Logger log =
-            LoggerFactory.getLogger(JobExecutor.class);
+    private static final Logger log = LoggerFactory.getLogger(JobExecutor.class);
 
     private final RestTemplate restTemplate = new RestTemplate();
 
@@ -29,18 +28,11 @@ public class JobExecutor {
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
 
-            Map<String, String> body =
-                    Map.of("text", job.getPayload());
+            Map<String, String> body = Map.of("text", job.getPayload());
 
-            HttpEntity<Map<String, String>> request =
-                    new HttpEntity<>(body, headers);
+            HttpEntity<Map<String, String>> request = new HttpEntity<>(body, headers);
 
-            ResponseEntity<String> response =
-                    restTemplate.postForEntity(
-                            job.getWebhookUrl(),
-                            request,
-                            String.class
-                    );
+            ResponseEntity<String> response = restTemplate.postForEntity(job.getWebhookUrl(), request, String.class);
 
             log.info("Webhook response status={}", response.getStatusCode());
             log.debug("Webhook response body={}", response.getBody());

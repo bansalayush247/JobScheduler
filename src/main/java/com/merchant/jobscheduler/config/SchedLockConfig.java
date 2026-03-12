@@ -19,9 +19,7 @@ public class SchedLockConfig {
                 JdbcTemplateLockProvider.Configuration.builder()
                         .withJdbcTemplate(new JdbcTemplate(dataSource))
                         .usingDbTime()
-                        .withLockedByValue(
-                                UUID.randomUUID().toString()
-                        )
+                        .withLockedByValue(UUID.randomUUID().toString())
                         .build()
         );
     }

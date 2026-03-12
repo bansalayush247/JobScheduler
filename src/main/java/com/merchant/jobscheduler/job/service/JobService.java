@@ -22,8 +22,7 @@ public class JobService {
     private final ScheduledJobRepository repository;
     private final JobExecutor executor;
 
-    public JobService(ScheduledJobRepository repository,
-                      JobExecutor executor) {
+    public JobService(ScheduledJobRepository repository, JobExecutor executor) {
         this.repository = repository;
         this.executor = executor;
     }
@@ -47,9 +46,7 @@ public class JobService {
             if (retry < job.getMaxRetries()) {
 
                 job.setStatus(JobStatus.RETRY_SCHEDULED);
-                job.setNextExecutionTime(
-                        LocalDateTime.now().plusSeconds(30 * (retry))
-                );
+                job.setNextExecutionTime(LocalDateTime.now().plusSeconds(30 * (retry)));
 
             } else {
                 job.setStatus(JobStatus.FAILED);
@@ -60,11 +57,9 @@ public class JobService {
 
     private void scheduleNext(ScheduledJob job) {
 
-        CronExpression cron =
-                CronExpression.parse(job.getCronExpression());
+        CronExpression cron = CronExpression.parse(job.getCronExpression());
 
-        LocalDateTime next =
-                cron.next(LocalDateTime.now());
+        LocalDateTime next = cron.next(LocalDateTime.now());
 
         job.setNextExecutionTime(next);
         job.setStatus(JobStatus.PENDING);
@@ -72,8 +67,7 @@ public class JobService {
 
     public JobResponse updateJob(UUID id, UpdateJobRequest request) {
 
-        ScheduledJob job = repository.findById(id)
-                .orElseThrow(() -> new CustomException(
+        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
                         ErrorCodes.JOB_NOT_FOUND,
                         "Job not found"
                 ));
@@ -96,9 +90,7 @@ public class JobService {
 
             CronExpression cron = CronExpression.parse(request.getCronExpression());
 
-            job.setNextExecutionTime(
-                    cron.next(LocalDateTime.now())
-            );
+            job.setNextExecutionTime(cron.next(LocalDateTime.now()));
         }
 
         job.setUpdatedAt(LocalDateTime.now());
@@ -121,8 +113,7 @@ public class JobService {
 
     public void pauseJob(UUID id) {
 
-        ScheduledJob job = repository.findById(id)
-                .orElseThrow(() -> new CustomException(
+        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
                         ErrorCodes.JOB_NOT_FOUND,
                         "Job not found"
                 ));
@@ -134,8 +125,7 @@ public class JobService {
 
     public void resumeJob(UUID id) {
 
-        ScheduledJob job = repository.findById(id)
-                .orElseThrow(() -> new CustomException(
+        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
                         ErrorCodes.JOB_NOT_FOUND,
                         "Job not found"
                 ));
@@ -144,9 +134,7 @@ public class JobService {
 
         CronExpression cron = CronExpression.parse(job.getCronExpression());
 
-        job.setNextExecutionTime(
-                cron.next(LocalDateTime.now())
-        );
+        job.setNextExecutionTime(cron.next(LocalDateTime.now()));
 
         repository.save(job);
     }

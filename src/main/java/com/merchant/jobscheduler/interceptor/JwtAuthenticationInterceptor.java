@@ -19,16 +19,13 @@ public class JwtAuthenticationInterceptor implements HandlerInterceptor {
     private final UserRepository userRepository;
     private final AntPathMatcher pathMatcher = new AntPathMatcher();
 
-    public JwtAuthenticationInterceptor(JwtTokenProvider jwtProvider,
-                                        UserRepository userRepository) {
+    public JwtAuthenticationInterceptor(JwtTokenProvider jwtProvider, UserRepository userRepository) {
         this.jwtProvider = jwtProvider;
         this.userRepository = userRepository;
     }
 
     @Override
-    public boolean preHandle(HttpServletRequest request,
-                             HttpServletResponse response,
-                             Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
         try {
 
@@ -59,9 +56,7 @@ public class JwtAuthenticationInterceptor implements HandlerInterceptor {
 
             String userId = jwtProvider.getUserId(token);
 
-            User user = userRepository
-                    .findById(UUID.fromString(userId))
-                    .orElse(null);
+            User user = userRepository.findById(UUID.fromString(userId)).orElse(null);
 
             if (user == null) {
                 response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);

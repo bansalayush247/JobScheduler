@@ -17,34 +17,26 @@ public class UserService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
 
-    public UserService(UserRepository userRepository,
-                       RoleRepository roleRepository) {
+    public UserService(UserRepository userRepository, RoleRepository roleRepository) {
         this.userRepository = userRepository;
         this.roleRepository = roleRepository;
     }
 
-    // ✅ Build profile from authenticated user (passed from controller)
+    // Build profile from authenticated user (passed from controller)
     public UserProfileResponse getUserProfile(User user) {
 
-        return new UserProfileResponse(
-                user.getId().toString(),
-                user.getUsername(),
-                user.getEmail(),
-                user.getRole().getName()
-        );
+        return new UserProfileResponse(user.getId().toString(), user.getUsername(), user.getEmail(), user.getRole().getName());
     }
 
-    // ✅ Admin upgrades user role
+    // Admin upgrades user role
     public void upgradeUserRole(UUID userId, String roleName) {
 
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new CustomException(
+        User user = userRepository.findById(userId).orElseThrow(() -> new CustomException(
                         ErrorCodes.USER_NOT_FOUND,
                         "User not found"
                 ));
 
-        Role newRole = roleRepository.findByName(roleName)
-                .orElseThrow(() -> new CustomException(
+        Role newRole = roleRepository.findByName(roleName).orElseThrow(() -> new CustomException(
                         ErrorCodes.ROLE_NOT_FOUND,
                         "Role not found"
                 ));
@@ -58,8 +50,7 @@ public class UserService {
             );
         }
         // 🚨 Enforce single ADMIN rule
-        if (roleName.equals("ADMIN")
-                && userRepository.existsByRole_Name("ADMIN")) {
+        if (roleName.equals("ADMIN") && userRepository.existsByRole_Name("ADMIN")) {
 
             throw new CustomException(
                     ErrorCodes.ADMIN_ALREADY_EXISTS,

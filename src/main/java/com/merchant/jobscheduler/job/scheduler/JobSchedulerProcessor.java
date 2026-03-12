@@ -21,29 +21,23 @@ import java.util.List;
 @EnableScheduling
 public class JobSchedulerProcessor {
 
-    private static final Logger log =
-            LoggerFactory.getLogger(JobSchedulerProcessor.class);
+    private static final Logger log = LoggerFactory.getLogger(JobSchedulerProcessor.class);
 
     private final ScheduledJobRepository repository;
     private final JobService service;
 
-    public JobSchedulerProcessor(ScheduledJobRepository repository,
-                                 JobService service) {
+    public JobSchedulerProcessor(ScheduledJobRepository repository, JobService service) {
         this.repository = repository;
         this.service = service;
     }
 
     @Scheduled(fixedDelay = 10000)
-    @SchedulerLock(
-            name = "jobSchedulerLock",
-            lockAtMostFor = "30s"
-    )
+    @SchedulerLock(name = "jobSchedulerLock", lockAtMostFor = "30s")
     public void pollAndExecuteJobs() {
 
         log.info("Checking for pending jobs at {}", LocalDateTime.now());
 
-        List<ScheduledJob> jobs =
-                repository.findByNextExecutionTimeBeforeAndStatusIn(
+        List<ScheduledJob> jobs = repository.findByNextExecutionTimeBeforeAndStatusIn(
                         LocalDateTime.now(),
                         List.of(JobStatus.PENDING, JobStatus.RETRY_SCHEDULED)
                 );
