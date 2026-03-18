@@ -1,19 +1,18 @@
 package com.merchant.jobscheduler.exception;
 
+import org.springframework.http.HttpStatus;
+import lombok.Getter;
+
+@Getter
 public class CustomException extends RuntimeException {
 
     private final String errorCode;
-    private final String errorMsg;
-    public CustomException(String errorCode, String errorMsg) {
-        super(errorMsg);
-        this.errorCode = errorCode;
-        this.errorMsg = errorMsg;
-    }
-    public String getErrorCode() {
-        return errorCode;
+    private final HttpStatus httpStatus;
+
+    public CustomException(ErrorCodes errorCode) {
+        super(errorCode.getMessage());
+        this.errorCode = errorCode.getCode();
+        this.httpStatus = errorCode.getHttpStatus();
     }
 
-    public String getErrorMsg() {
-        return errorMsg;
-    }
 }

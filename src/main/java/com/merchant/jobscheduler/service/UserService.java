@@ -7,12 +7,17 @@ import com.merchant.jobscheduler.exception.CustomException;
 import com.merchant.jobscheduler.exception.ErrorCodes;
 import com.merchant.jobscheduler.repository.RoleRepository;
 import com.merchant.jobscheduler.repository.UserRepository;
+
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.UUID;
 
 @Service
 public class UserService {
+
+    private static final String ROLE_ADMIN = "ADMIN";
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
@@ -22,40 +27,36 @@ public class UserService {
         this.roleRepository = roleRepository;
     }
 
-    // Build profile from authenticated user (passed from controller)
+    // Build profile from authenticated user
     public UserProfileResponse getUserProfile(User user) {
-
-        return new UserProfileResponse(user.getId().toString(), user.getUsername(), user.getEmail(), user.getRole().getName());
+        return new UserProfileResponse(
+                user.getId().toString(),
+                user.getUsername(),
+                user.getEmail(),
+                user.getRole().getName()
+        );
     }
 
     // Admin upgrades user role
+    @Transactional
     public void upgradeUserRole(UUID userId, String roleName) {
 
-        User user = userRepository.findById(userId).orElseThrow(() -> new CustomException(
-                        ErrorCodes.USER_NOT_FOUND,
-                        "User not found"
-                ));
+        User user = userRepository.findById(userId).orElseThrow(() -> new CustomException(ErrorCodes.USER_NOT_FOUND));
 
-        Role newRole = roleRepository.findByName(roleName).orElseThrow(() -> new CustomException(
-                        ErrorCodes.ROLE_NOT_FOUND,
-                        "Role not found"
-                ));
+        Role newRole = roleRepository.findByName(roleName.toUpperCase()).orElseThrow(() -> new CustomException(ErrorCodes.ROLE_NOT_FOUND));
 
         String currentRole = user.getRole().getName();
 
-        if ("ADMIN".equalsIgnoreCase(currentRole)) {
-            throw new CustomException(
-                    ErrorCodes.ADMIN_ROLE_CHANGE_NOT_ALLOWED,
-                    "ADMIN role cannot be changed"
-            );
+        // 🚫 ADMIN role cannot be changed
+        if (ROLE_ADMIN.equalsIgnoreCase(currentRole)) {
+            throw new CustomException(ErrorCodes.ADMIN_ROLE_CHANGE_NOT_ALLOWED);
         }
-        // 🚨 Enforce single ADMIN rule
-        if (roleName.equals("ADMIN") && userRepository.existsByRole_Name("ADMIN")) {
 
-            throw new CustomException(
-                    ErrorCodes.ADMIN_ALREADY_EXISTS,
-                    "Only one ADMIN allowed in system"
-            );
+        // 🚨 Enforce single ADMIN rule
+        if (ROLE_ADMIN.equalsIgnoreCase(roleName)
+                && userRepository.existsByRole_Name(ROLE_ADMIN)) {
+
+            throw new CustomException(ErrorCodes.ADMIN_ALREADY_EXISTS);
         }
 
         user.setRole(newRole);

@@ -11,15 +11,19 @@ import com.merchant.jobscheduler.security.JwtTokenProvider;
 import com.merchant.jobscheduler.exception.CustomException;
 import com.merchant.jobscheduler.exception.ErrorCodes;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class AuthService {
 
     private static final Logger logger = LoggerFactory.getLogger(AuthService.class);
+
+    private static final String ROLE_USER = "USER";
 
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
@@ -36,54 +40,59 @@ public class AuthService {
         this.jwtProvider = jwtProvider;
     }
 
+    @Transactional
     public void register(RegisterRequest request) {
 
-        logger.info("Register attempt for email: {}", request.email());
+        String email = request.email().toLowerCase().trim();
 
-        if (userRepository.existsByEmail(request.email())) {
+        logger.info("Register attempt for email: {}", email);
 
-            logger.error("Registration failed. Email already exists: {}", request.email());
+        if (userRepository.existsByEmail(email)) {
 
-            throw new CustomException(ErrorCodes.EMAIL_ALREADY_EXISTS, "Email already registered");
+            logger.error("Registration failed. Email already exists: {}", email);
+
+            throw new CustomException(ErrorCodes.EMAIL_ALREADY_EXISTS);
         }
 
-        Role role = roleRepository.findByName("USER").orElseThrow(() -> new CustomException(
-                        ErrorCodes.USER_NOT_FOUND,
-                        "Default role not found"
-                ));
+        Role role = roleRepository.findByName("ROLE_USER").orElseThrow(() -> new CustomException(ErrorCodes.ROLE_NOT_FOUND));
 
         User user = new User();
         user.setUsername(request.name());
-        user.setEmail(request.email());
+        user.setEmail(email);
         user.setPassword(encoder.encode(request.password()));
         user.setRole(role);
 
         userRepository.save(user);
 
-        logger.info("User registered successfully: {}", request.email());
+        logger.info("User registered successfully: {}",email);
     }
 
     public LoginResponse login(LoginRequest request) {
 
-        logger.info("Login attempt for email: {}", request.email());
+        String email = request.email().toLowerCase().trim();
 
-        User user = userRepository.findByEmail(request.email()).orElseThrow(() -> {
+        logger.info("Login attempt for email: {}", email);
 
-                    logger.error("Login failed. User not found: {}", request.email());
+        User user = userRepository.findByEmail(email).orElseThrow(() -> {
 
-                    return new CustomException(ErrorCodes.INVALID_CREDENTIALS, "Invalid credentials");
+                    logger.error("Login failed. Invalid credentials for email: {}", email);
+
+                    return new CustomException(ErrorCodes.INVALID_CREDENTIALS);
                 });
 
         if (!encoder.matches(request.password(), user.getPassword())) {
 
-            logger.error("Login failed. Invalid password for email: {}", request.email());
+            logger.error("Login failed. Invalid credentials for email: {}", email);
 
-            throw new CustomException(ErrorCodes.INVALID_CREDENTIALS, "Invalid credentials");
+            throw new CustomException(ErrorCodes.INVALID_CREDENTIALS);
         }
 
-        String token = jwtProvider.generateToken(user.getId().toString(), user.getRole().getName());
+        String token = jwtProvider.generateToken(
+                user.getId().toString(),
+                user.getRole().getName()
+        );
 
-        logger.info("Login successful for email: {}", request.email());
+        logger.info("Login successful for email: {}", email);
 
         return new LoginResponse(user.getId().toString(), token);
     }
