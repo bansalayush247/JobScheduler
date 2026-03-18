@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Value;
 
 import javax.crypto.SecretKey;
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 @Component
@@ -20,7 +21,7 @@ public class JwtTokenProvider {
     private long EXPIRATION;
 
     private SecretKey getKey() {
-        return Keys.hmacShaKeyFor(SECRET.getBytes());
+        return Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
     }
 
     public String generateToken(String userId, String role) {
@@ -44,7 +45,8 @@ public class JwtTokenProvider {
 
     public boolean validate(String token) {
         try {
-            return getClaims(token).getExpiration().after(new Date());
+            getClaims(token); // will throw if invalid
+            return true;
         } catch (JwtException | IllegalArgumentException e) {
             return false;
         }

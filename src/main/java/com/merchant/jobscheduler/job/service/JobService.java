@@ -13,9 +13,12 @@ import com.merchant.jobscheduler.exception.ErrorCodes;
 import org.springframework.stereotype.Service;
 import org.springframework.scheduling.support.CronExpression;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Slf4j
 @Service
 public class JobService {
 
@@ -51,6 +54,8 @@ public class JobService {
             } else {
                 job.setStatus(JobStatus.FAILED);
             }
+
+            log.error("Job failed: {} retry: {}", job.getId(), retry, e);
         }
         repository.save(job);
     }
@@ -67,10 +72,7 @@ public class JobService {
 
     public JobResponse updateJob(UUID id, UpdateJobRequest request) {
 
-        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
-                        ErrorCodes.JOB_NOT_FOUND,
-                        "Job not found"
-                ));
+        ScheduledJob job = getJobOrThrow(id);
 
         if (request.getJobName() != null) {
             job.setJobName(request.getJobName());
@@ -113,10 +115,7 @@ public class JobService {
 
     public void pauseJob(UUID id) {
 
-        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
-                        ErrorCodes.JOB_NOT_FOUND,
-                        "Job not found"
-                ));
+        ScheduledJob job = getJobOrThrow(id);
 
         job.setStatus(JobStatus.PAUSED);
 
@@ -125,10 +124,7 @@ public class JobService {
 
     public void resumeJob(UUID id) {
 
-        ScheduledJob job = repository.findById(id).orElseThrow(() -> new CustomException(
-                        ErrorCodes.JOB_NOT_FOUND,
-                        "Job not found"
-                ));
+        ScheduledJob job = getJobOrThrow(id);
 
         job.setStatus(JobStatus.PENDING);
 
@@ -137,5 +133,10 @@ public class JobService {
         job.setNextExecutionTime(cron.next(LocalDateTime.now()));
 
         repository.save(job);
+    }
+
+    private ScheduledJob getJobOrThrow(UUID id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new CustomException(ErrorCodes.JOB_NOT_FOUND));
     }
 }
