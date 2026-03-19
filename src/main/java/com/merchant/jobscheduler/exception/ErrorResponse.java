@@ -7,5 +7,6 @@ import java.time.LocalDateTime;
 public class ErrorResponse {
     String errorCode;
     String errorMessage;
+    Object errors;
     LocalDateTime timestamp;
 }

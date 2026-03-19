@@ -13,7 +13,8 @@ public enum ErrorCodes {
     ADMIN_ALREADY_EXISTS("ERR005", "Only one ADMIN allowed in system", HttpStatus.BAD_REQUEST),
     ADMIN_ROLE_CHANGE_NOT_ALLOWED("ERR006", "ADMIN role cannot be changed", HttpStatus.BAD_REQUEST),
     JOB_NOT_FOUND("ERR007", "Job not found", HttpStatus.NOT_FOUND),
-    INTERNAL_SERVER_ERROR("ERR500", "Something went wrong", HttpStatus.INTERNAL_SERVER_ERROR);
+    INTERNAL_SERVER_ERROR("ERR500", "Something went wrong", HttpStatus.INTERNAL_SERVER_ERROR),
+    VALIDATION_ERROR("ERR400", "Validation failed", HttpStatus.BAD_REQUEST);
 
     private final String code;
     private final String message;
