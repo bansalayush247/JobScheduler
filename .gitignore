@@ -9,9 +9,9 @@ dependency-reduced-pom.xml
 buildNumber.properties
 
 ### Logs ###
-*.log
 logs/
-log/
+*.log
+*.zip
 
 ### Spring Boot ###
 application.properties

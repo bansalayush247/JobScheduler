@@ -7,11 +7,9 @@ import java.util.UUID;
 
 public record JobResponse(
 
-
         UUID jobId,
         String jobName,
         JobStatus status,
         String cronExpression,
         LocalDateTime nextExecutionTime
-
 ) {}

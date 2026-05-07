@@ -54,7 +54,7 @@ public class AuthService {
             throw new CustomException(ErrorCodes.EMAIL_ALREADY_EXISTS);
         }
 
-        Role role = roleRepository.findByName("ROLE_USER").orElseThrow(() -> new CustomException(ErrorCodes.ROLE_NOT_FOUND));
+        Role role = roleRepository.findByName("USER").orElseThrow(() -> new CustomException(ErrorCodes.ROLE_NOT_FOUND));
 
         User user = new User();
         user.setUsername(request.name());
