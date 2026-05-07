@@ -9,6 +9,7 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
+        <module name="jobscheduler (1)" />
         <module name="jobscheduler" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jobscheduler" options="-parameters" />
+      <module name="jobscheduler (1)" options="-parameters" />
     </option>
   </component>
 </project>
