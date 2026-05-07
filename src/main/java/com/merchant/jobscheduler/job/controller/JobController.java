@@ -17,7 +17,9 @@ import org.springframework.scheduling.support.CronExpression;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/jobs")
 public class JobController {
@@ -32,6 +34,8 @@ public class JobController {
 
     @PostMapping
     public ResponseEntity<JobResponse> createJob(@RequestBody CreateJobRequest request) {
+
+        log.info("Create job request received jobName={}", request.jobName());
 
         ScheduledJob job = new ScheduledJob();
 
@@ -51,6 +55,7 @@ public class JobController {
 
         repository.save(job);
 
+        log.info("Job created successfully jobId={} jobName={}", job.getId(), job.getJobName());
         JobResponse response = new JobResponse(
                 job.getId(),
                 job.getJobName(),
@@ -64,17 +69,26 @@ public class JobController {
 
     @GetMapping
     public List<ScheduledJob> getAllJobs() {
+
+        log.info("Fetching all scheduled jobs");
+
         return repository.findAll();
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteJob(@PathVariable UUID id) {
 
+        log.info("Delete job request received jobId={}", id);
+
         if (!repository.existsById(id)) {
+            log.warn("Job not found jobId={}", id);
+
             return ResponseEntity.status(404).body("Job not found");
         }
 
         repository.deleteById(id);
+
+        log.info("Job deleted successfully jobId={}", id);
 
         return ResponseEntity.ok("Job deleted successfully");
     }
@@ -82,7 +96,11 @@ public class JobController {
     @PutMapping("/{id}")
     public ResponseEntity<JobResponse> updateJob(@PathVariable UUID id, @RequestBody UpdateJobRequest request) {
 
+        log.info("Update job request received jobId={}", id);
+
         JobResponse response = jobService.updateJob(id, request);
+
+        log.info("Job updated successfully jobId={}", id);
 
         return ResponseEntity.ok(response);
     }
@@ -90,7 +108,11 @@ public class JobController {
     @PostMapping("/{id}/pause")
     public ResponseEntity<ApiResponse<String>> pauseJob(@PathVariable UUID id) {
 
+        log.info("Pause job request received jobId={}", id);
+
         jobService.pauseJob(id);
+
+        log.info("Job paused successfully jobId={}", id);
 
         return ResponseEntity.ok(new ApiResponse<>(true, "Job paused successfully", id.toString()));
     }
@@ -98,7 +120,12 @@ public class JobController {
     @PostMapping("/{id}/resume")
     public ResponseEntity<ApiResponse<String>> resumeJob(@PathVariable UUID id) {
 
+        log.info("Resume job request received jobId={}", id);
+
         jobService.resumeJob(id);
+
+        log.info("Job resumed successfully jobId={}", id);
+
 
         return ResponseEntity.ok(new ApiResponse<>(true, "Job resumed successfully", id.toString()));
     }

@@ -1,16 +1,16 @@
 package com.merchant.jobscheduler.controller;
 
 import com.merchant.jobscheduler.dto.response.UserProfileResponse;
-import com.merchant.jobscheduler.service.UserService;
 import com.merchant.jobscheduler.entity.User;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import com.merchant.jobscheduler.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
+import lombok.extern.slf4j.Slf4j;
+
+import org.springframework.web.bind.annotation.*;
+
+@Slf4j
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -25,6 +25,10 @@ public class UserController {
     public UserProfileResponse profile(HttpServletRequest request) {
 
         User user = (User) request.getAttribute("authenticatedUser");
+
+        log.info("Profile API called for userId={} email={}",
+                user.getId(),
+                user.getEmail());
 
         return userService.getUserProfile(user);
     }

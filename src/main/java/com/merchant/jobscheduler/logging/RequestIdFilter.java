@@ -24,6 +24,9 @@ public class RequestIdFilter extends OncePerRequestFilter {
         String requestId = UUID.randomUUID().toString();
 
         MDC.put("requestId", requestId);
+        MDC.put("method", request.getMethod());
+        MDC.put("path", request.getRequestURI());
+
         response.setHeader("X-Request-Id", requestId);
 
         try {

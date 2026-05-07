@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
@@ -17,9 +20,17 @@ public class AdminController {
     }
 
     @PutMapping("/users/{userId}/role")
-    public ResponseEntity<String> upgradeRole(@PathVariable UUID userId, @RequestParam String roleName)
-    {
+    public ResponseEntity<String> upgradeRole(@PathVariable UUID userId,
+                                              @RequestParam String roleName) {
+
+        log.info("Role upgrade request received for userId={} role={}",
+                userId,
+                roleName);
+
         userService.upgradeUserRole(userId, roleName);
+
+        log.info("Role updated successfully for userId={}", userId);
+
         return ResponseEntity.ok("Role updated successfully");
     }
 }

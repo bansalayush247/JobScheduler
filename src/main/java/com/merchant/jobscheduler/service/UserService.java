@@ -13,7 +13,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.UUID;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Service
 public class UserService {
 
@@ -41,25 +43,55 @@ public class UserService {
     @Transactional
     public void upgradeUserRole(UUID userId, String roleName) {
 
-        User user = userRepository.findById(userId).orElseThrow(() -> new CustomException(ErrorCodes.USER_NOT_FOUND));
+        log.info("Starting role upgrade for userId={} requestedRole={}",
+                userId,
+                roleName);
 
-        Role newRole = roleRepository.findByName(roleName.toUpperCase()).orElseThrow(() -> new CustomException(ErrorCodes.ROLE_NOT_FOUND));
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> {
+                    log.error("User not found userId={}", userId);
+                    return new CustomException(ErrorCodes.USER_NOT_FOUND);
+                });
+
+        Role newRole = roleRepository.findByName(roleName.toUpperCase())
+                .orElseThrow(() -> {
+                    log.error("Role not found roleName={}", roleName);
+                    return new CustomException(ErrorCodes.ROLE_NOT_FOUND);
+                });
 
         String currentRole = user.getRole().getName();
 
-        // 🚫 ADMIN role cannot be changed
+        log.info("Current role for userId={} is {}",
+                userId,
+                currentRole);
+
+        // ADMIN cannot be changed
         if (ROLE_ADMIN.equalsIgnoreCase(currentRole)) {
-            throw new CustomException(ErrorCodes.ADMIN_ROLE_CHANGE_NOT_ALLOWED);
+
+            log.warn("Attempt to change ADMIN role userId={}", userId);
+
+            throw new CustomException(
+                    ErrorCodes.ADMIN_ROLE_CHANGE_NOT_ALLOWED
+            );
         }
 
-        // 🚨 Enforce single ADMIN rule
+        // Single admin validation
         if (ROLE_ADMIN.equalsIgnoreCase(roleName)
                 && userRepository.existsByRole_Name(ROLE_ADMIN)) {
 
-            throw new CustomException(ErrorCodes.ADMIN_ALREADY_EXISTS);
+            log.warn("ADMIN already exists. Cannot assign another ADMIN");
+
+            throw new CustomException(
+                    ErrorCodes.ADMIN_ALREADY_EXISTS
+            );
         }
 
         user.setRole(newRole);
+
         userRepository.save(user);
+
+        log.info("Role upgraded successfully userId={} newRole={}",
+                userId,
+                roleName);
     }
 }
