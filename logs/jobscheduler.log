@@ -1,0 +1,3079 @@
+2026-05-07 10:44:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=background-preinit |
+                logger=o.h.validator.internal.util.Version |
+                msg=HV000001: Hibernate Validator 9.0.1.Final
+2026-05-07 10:44:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=Starting JobschedulerApplication using Java 17.0.12 with PID 30656 (C:\Users\ayush.bansal.in\Downloads\jobscheduler\jobscheduler\target\classes started by ayush.bansal.in in C:\Users\ayush.bansal.in\Downloads\jobscheduler)
+2026-05-07 10:44:22 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=No active profile set, falling back to 1 default profile: "default"
+2026-05-07 10:44:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-07 10:44:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.r.c.RepositoryConfigurationDelegate |
+                msg=Finished Spring Data repository scanning in 188 ms. Found 3 JPA repository interfaces.
+2026-05-07 10:44:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.boot.tomcat.TomcatWebServer |
+                msg=Tomcat initialized with port 8080 (http)
+2026-05-07 10:44:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.coyote.http11.Http11NioProtocol |
+                msg=Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-07 10:44:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardService |
+                msg=Starting service [Tomcat]
+2026-05-07 10:44:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.catalina.core.StandardEngine |
+                msg=Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-05-07 10:44:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.w.c.s.WebApplicationContextInitializer |
+                msg=Root WebApplicationContext: initialization completed in 4077 ms
+2026-05-07 10:44:27 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.jpa |
+                msg=HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-07 10:44:27 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-05-07 10:44:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.p.SpringPersistenceUnitInfo |
+                msg=No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-07 10:44:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Starting...
+2026-05-07 10:44:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fe4503a
+2026-05-07 10:44:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Start completed.
+2026-05-07 10:44:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.hibernate.orm.connections.pooling |
+                msg=HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/jobscheduler?serverTimezone=Asia/Kolkata]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: jobscheduler/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-07 10:44:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=org.hibernate.orm.core |
+                msg=HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-07 10:44:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-07 10:44:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.d.j.r.q.QueryEnhancerFactories |
+                msg=Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-07 10:44:32 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration |
+                msg=spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-07 10:44:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.a.coyote.http11.Http11NioProtocol |
+                msg=Starting ProtocolHandler ["http-nio-8080"]
+2026-05-07 10:44:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=o.s.boot.tomcat.TomcatWebServer |
+                msg=Tomcat started on port 8080 (http) with context path '/'
+2026-05-07 10:44:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=main |
+                logger=c.m.j.JobschedulerApplication |
+                msg=Started JobschedulerApplication in 12.525 seconds (process running for 14.038)
+2026-05-07 10:44:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:44:33.653567100
+2026-05-07 10:44:34 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:44:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:44:44.422932700
+2026-05-07 10:44:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:44:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:44:54.459396600
+2026-05-07 10:44:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:04 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:04.511395
+2026-05-07 10:45:04 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:14.540683800
+2026-05-07 10:45:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:24.578910400
+2026-05-07 10:45:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:34 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:34.616749400
+2026-05-07 10:45:34 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:44.664366100
+2026-05-07 10:45:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:45:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:45:54.692035400
+2026-05-07 10:45:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:04 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:04.723333400
+2026-05-07 10:46:04 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:14.778473700
+2026-05-07 10:46:14 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:24.810993700
+2026-05-07 10:46:24 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:34 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:34.852695500
+2026-05-07 10:46:34 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:44.904218100
+2026-05-07 10:46:44 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:46:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:46:54.940171200
+2026-05-07 10:46:54 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:04 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:04.995410500
+2026-05-07 10:47:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:15.033950400
+2026-05-07 10:47:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:25.070456700
+2026-05-07 10:47:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=o.a.c.c.C.[Tomcat].[localhost].[/] |
+                msg=Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=o.s.web.servlet.DispatcherServlet |
+                msg=Initializing Servlet 'dispatcherServlet'
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=o.s.web.servlet.DispatcherServlet |
+                msg=Completed initialization in 1 ms
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId=bba88cd3-6ad6-4b7b-829f-af4347723593 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.j.controller.AuthController |
+                msg=Login API called for email: admin1@example.com
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId=bba88cd3-6ad6-4b7b-829f-af4347723593 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login attempt for email: admin1@example.com
+2026-05-07 10:47:30 |
+                level=INFO  |
+                requestId=bba88cd3-6ad6-4b7b-829f-af4347723593 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login successful for email: admin1@example.com
+2026-05-07 10:47:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:35.107007200
+2026-05-07 10:47:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:45.129123900
+2026-05-07 10:47:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:47:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:47:55.158681
+2026-05-07 10:47:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:05.196797800
+2026-05-07 10:48:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:15.227940400
+2026-05-07 10:48:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:25.261199800
+2026-05-07 10:48:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:35.295919
+2026-05-07 10:48:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:45.333338100
+2026-05-07 10:48:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:48:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:48:55.364889
+2026-05-07 10:48:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:05.400445500
+2026-05-07 10:49:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:15.426840100
+2026-05-07 10:49:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:25.460287200
+2026-05-07 10:49:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:35.494046500
+2026-05-07 10:49:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:45.520055200
+2026-05-07 10:49:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:49:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:49:55.552721700
+2026-05-07 10:49:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:05.590373600
+2026-05-07 10:50:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:15.622332700
+2026-05-07 10:50:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:25.647881100
+2026-05-07 10:50:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:35.688302100
+2026-05-07 10:50:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:45.712607500
+2026-05-07 10:50:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:50:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:50:55.760823300
+2026-05-07 10:50:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:55:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:55:45.747672100
+2026-05-07 10:55:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:55:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:55:55.788435300
+2026-05-07 10:55:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:55:57 |
+                level=WARN  |
+                requestId= |
+                method= |
+                path= |
+                thread=HikariPool-1:housekeeper |
+                logger=com.zaxxer.hikari.pool.HikariPool |
+                msg=HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m57s378ms900µs800ns).
+2026-05-07 10:56:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:05.807344300
+2026-05-07 10:56:05 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:56:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:15.843544300
+2026-05-07 10:56:15 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:56:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:25.888221800
+2026-05-07 10:56:25 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:56:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:35.918163200
+2026-05-07 10:56:35 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:56:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:45.954815800
+2026-05-07 10:56:45 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:56:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:56:55.981862100
+2026-05-07 10:56:55 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:06.007720500
+2026-05-07 10:57:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:12 |
+                level=INFO  |
+                requestId=63ca0e1f-93ae-40cd-ad56-11882d3b2a3c |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.j.controller.AuthController |
+                msg=Register API called for email: ayush@gmail.com
+2026-05-07 10:57:12 |
+                level=INFO  |
+                requestId=63ca0e1f-93ae-40cd-ad56-11882d3b2a3c |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Register attempt for email: ayush@gmail.com
+2026-05-07 10:57:12 |
+                level=ERROR |
+                requestId=63ca0e1f-93ae-40cd-ad56-11882d3b2a3c |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Registration failed. Email already exists: ayush@gmail.com
+2026-05-07 10:57:13 |
+                level=ERROR |
+                requestId=63ca0e1f-93ae-40cd-ad56-11882d3b2a3c |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.j.e.GlobalExceptionHandler |
+                msg=Business Exception: ERR003 - Email already registered
+2026-05-07 10:57:13 |
+                level=INFO  |
+                requestId=58d42858-cffe-4d5e-b2c0-d1f29b78f2ca |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-6 |
+                logger=c.m.j.controller.AuthController |
+                msg=Login API called for email: admin1@example.com
+2026-05-07 10:57:13 |
+                level=INFO  |
+                requestId=58d42858-cffe-4d5e-b2c0-d1f29b78f2ca |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-6 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login attempt for email: admin1@example.com
+2026-05-07 10:57:13 |
+                level=INFO  |
+                requestId=58d42858-cffe-4d5e-b2c0-d1f29b78f2ca |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-6 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login successful for email: admin1@example.com
+2026-05-07 10:57:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:16.040448300
+2026-05-07 10:57:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:26.064520800
+2026-05-07 10:57:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:36.097608600
+2026-05-07 10:57:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:46.132558300
+2026-05-07 10:57:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:57:56.157573300
+2026-05-07 10:57:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:57:58 |
+                level=INFO  |
+                requestId=26a8d469-8728-4204-a31b-36172fa6cf49 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-3 |
+                logger=c.m.j.controller.AuthController |
+                msg=Register API called for email: ayush@gmail.com
+2026-05-07 10:57:58 |
+                level=INFO  |
+                requestId=26a8d469-8728-4204-a31b-36172fa6cf49 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-3 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Register attempt for email: ayush@gmail.com
+2026-05-07 10:57:58 |
+                level=ERROR |
+                requestId=26a8d469-8728-4204-a31b-36172fa6cf49 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-3 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Registration failed. Email already exists: ayush@gmail.com
+2026-05-07 10:57:58 |
+                level=ERROR |
+                requestId=26a8d469-8728-4204-a31b-36172fa6cf49 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-3 |
+                logger=c.m.j.e.GlobalExceptionHandler |
+                msg=Business Exception: ERR003 - Email already registered
+2026-05-07 10:57:58 |
+                level=INFO  |
+                requestId=1a9145f1-0a13-4f92-b36d-17aef6ec0656 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-4 |
+                logger=c.m.j.controller.AuthController |
+                msg=Login API called for email: admin1@example.com
+2026-05-07 10:57:58 |
+                level=INFO  |
+                requestId=1a9145f1-0a13-4f92-b36d-17aef6ec0656 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-4 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login attempt for email: admin1@example.com
+2026-05-07 10:57:58 |
+                level=INFO  |
+                requestId=1a9145f1-0a13-4f92-b36d-17aef6ec0656 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-4 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Login successful for email: admin1@example.com
+2026-05-07 10:58:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:06.193026100
+2026-05-07 10:58:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:58:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:16.232122200
+2026-05-07 10:58:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:58:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:26.288015500
+2026-05-07 10:58:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:58:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:36.315177600
+2026-05-07 10:58:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:58:38 |
+                level=INFO  |
+                requestId=c166881d-1160-4298-a89d-c2b8d31157c1 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-2 |
+                logger=c.m.j.controller.AuthController |
+                msg=Register API called for email: ayh@gmail.com
+2026-05-07 10:58:38 |
+                level=INFO  |
+                requestId=c166881d-1160-4298-a89d-c2b8d31157c1 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-2 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Register attempt for email: ayh@gmail.com
+2026-05-07 10:58:38 |
+                level=ERROR |
+                requestId=c166881d-1160-4298-a89d-c2b8d31157c1 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-2 |
+                logger=c.m.j.e.GlobalExceptionHandler |
+                msg=Business Exception: ERR004 - Role not found
+2026-05-07 10:58:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:46.349662800
+2026-05-07 10:58:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:58:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:58:56.388583800
+2026-05-07 10:58:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:01 |
+                level=INFO  |
+                requestId=c4035163-05f4-4f2c-96a0-355c9783523a |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.j.controller.AuthController |
+                msg=Register API called for email: ayh@gmail.com
+2026-05-07 10:59:01 |
+                level=INFO  |
+                requestId=c4035163-05f4-4f2c-96a0-355c9783523a |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Register attempt for email: ayh@gmail.com
+2026-05-07 10:59:01 |
+                level=ERROR |
+                requestId=c4035163-05f4-4f2c-96a0-355c9783523a |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-1 |
+                logger=c.m.j.e.GlobalExceptionHandler |
+                msg=Business Exception: ERR004 - Role not found
+2026-05-07 10:59:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:06.420519400
+2026-05-07 10:59:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:16.443780100
+2026-05-07 10:59:16 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:26.470115500
+2026-05-07 10:59:26 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:36.502780
+2026-05-07 10:59:36 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:46.541916700
+2026-05-07 10:59:46 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 10:59:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T10:59:56.587803100
+2026-05-07 10:59:56 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:00:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:06.615312300
+2026-05-07 11:00:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 2
+2026-05-07 11:00:06 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:00:07 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:00:07 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:00:07 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:00:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:00:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:00:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:18.346930700
+2026-05-07 11:00:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:00:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:28.369755800
+2026-05-07 11:00:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:00:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:38.413623600
+2026-05-07 11:00:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:00:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:48.431360700
+2026-05-07 11:00:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:00:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:00:58.467207500
+2026-05-07 11:00:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:05 |
+                level=INFO  |
+                requestId=e020b6b5-a415-436f-a3e6-de9f65904958 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.j.controller.AuthController |
+                msg=Register API called for email: ayh@gmail.com
+2026-05-07 11:01:05 |
+                level=INFO  |
+                requestId=e020b6b5-a415-436f-a3e6-de9f65904958 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.jobscheduler.service.AuthService |
+                msg=Register attempt for email: ayh@gmail.com
+2026-05-07 11:01:05 |
+                level=ERROR |
+                requestId=e020b6b5-a415-436f-a3e6-de9f65904958 |
+                method= |
+                path= |
+                thread=http-nio-8080-exec-5 |
+                logger=c.m.j.e.GlobalExceptionHandler |
+                msg=Business Exception: ERR004 - Role not found
+2026-05-07 11:01:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:08.486484400
+2026-05-07 11:01:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:18.509694100
+2026-05-07 11:01:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:28.534401500
+2026-05-07 11:01:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:38.568677700
+2026-05-07 11:01:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:48.595073100
+2026-05-07 11:01:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:01:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:01:58.626891800
+2026-05-07 11:01:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:08.659714300
+2026-05-07 11:02:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:18.671151700
+2026-05-07 11:02:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:28.710349700
+2026-05-07 11:02:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:38.734243400
+2026-05-07 11:02:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:48.796695800
+2026-05-07 11:02:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:02:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:02:58.822115400
+2026-05-07 11:02:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:08.860744300
+2026-05-07 11:03:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:18.879666300
+2026-05-07 11:03:18 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:28.903376700
+2026-05-07 11:03:28 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:38.922419100
+2026-05-07 11:03:38 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:48.948412600
+2026-05-07 11:03:48 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:03:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:03:58.973318900
+2026-05-07 11:03:58 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:08.999578200
+2026-05-07 11:04:08 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:19.040297900
+2026-05-07 11:04:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:29.072194100
+2026-05-07 11:04:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:39 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:39.087839700
+2026-05-07 11:04:39 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:49 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:49.108241800
+2026-05-07 11:04:49 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:04:59.130903400
+2026-05-07 11:04:59 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:05:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:05:09.149911300
+2026-05-07 11:05:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 2
+2026-05-07 11:05:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:05:09 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job execution failed: 6558d190-aae8-4780-957a-3a4a90e175bc
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://chat.googleapis.com/v1/spaces/AAQAqrco204/messages": PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:760)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.merchant.jobscheduler.job.executor.JobExecutor.execute(JobExecutor.java:35)
+	at com.merchant.jobscheduler.job.service.JobService.processJob(JobService.java:36)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor.pollAndExecuteJobs(JobSchedulerProcessor.java:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:70)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:79)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor$$SpringCGLIB$$0.pollAndExecuteJobs(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122)
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169)
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:754)
+	... 31 common frames omitted
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
+	... 49 common frames omitted
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+	... 54 common frames omitted
+2026-05-07 11:05:09 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.service.JobService |
+                msg=Job failed: 6558d190-aae8-4780-957a-3a4a90e175bc retry: 1
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://chat.googleapis.com/v1/spaces/AAQAqrco204/messages": PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:760)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.merchant.jobscheduler.job.executor.JobExecutor.execute(JobExecutor.java:35)
+	at com.merchant.jobscheduler.job.service.JobService.processJob(JobService.java:36)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor.pollAndExecuteJobs(JobSchedulerProcessor.java:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:70)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:79)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor$$SpringCGLIB$$0.pollAndExecuteJobs(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122)
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169)
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:754)
+	... 31 common frames omitted
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
+	... 49 common frames omitted
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+	... 54 common frames omitted
+2026-05-07 11:05:09 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:05:09 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job execution failed: e2765224-596f-4038-a83c-5bd5be3d2f38
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://chat.googleapis.com/v1/spaces/AAQAqrco204/messages": PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:760)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.merchant.jobscheduler.job.executor.JobExecutor.execute(JobExecutor.java:35)
+	at com.merchant.jobscheduler.job.service.JobService.processJob(JobService.java:36)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor.pollAndExecuteJobs(JobSchedulerProcessor.java:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:70)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:79)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor$$SpringCGLIB$$0.pollAndExecuteJobs(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122)
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169)
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:754)
+	... 31 common frames omitted
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
+	... 49 common frames omitted
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+	... 54 common frames omitted
+2026-05-07 11:05:09 |
+                level=ERROR |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.service.JobService |
+                msg=Job failed: e2765224-596f-4038-a83c-5bd5be3d2f38 retry: 1
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "https://chat.googleapis.com/v1/spaces/AAQAqrco204/messages": PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:760)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:430)
+	at com.merchant.jobscheduler.job.executor.JobExecutor.execute(JobExecutor.java:35)
+	at com.merchant.jobscheduler.job.service.JobService.processJob(JobService.java:36)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor.pollAndExecuteJobs(JobSchedulerProcessor.java:52)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at net.javacrumbs.shedlock.core.DefaultLockingTaskExecutor.executeWithLock(DefaultLockingTaskExecutor.java:70)
+	at net.javacrumbs.shedlock.spring.aop.MethodProxyScheduledLockAdvisor$LockingInterceptor.invoke(MethodProxyScheduledLockAdvisor.java:79)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.merchant.jobscheduler.job.scheduler.JobSchedulerProcessor$$SpringCGLIB$$0.pollAndExecuteJobs(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:128)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$1(ScheduledMethodRunnable.java:122)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:122)
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:88)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169)
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:589)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:80)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:754)
+	... 31 common frames omitted
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231)
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335)
+	... 49 common frames omitted
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+	... 54 common frames omitted
+2026-05-07 11:05:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:05:19.471369600
+2026-05-07 11:05:19 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:05:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:05:29.496212
+2026-05-07 11:05:29 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:05:39 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:05:39.528121400
+2026-05-07 11:05:39 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 2
+2026-05-07 11:05:39 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:05:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:05:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:05:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:05:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:05:40 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:05:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:05:50.896558700
+2026-05-07 11:05:50 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:00.920138200
+2026-05-07 11:06:00 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:10.949652600
+2026-05-07 11:06:10 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:20.984360100
+2026-05-07 11:06:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:31.010223800
+2026-05-07 11:06:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:41.032115500
+2026-05-07 11:06:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:06:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:06:51.049364
+2026-05-07 11:06:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:01.089228500
+2026-05-07 11:07:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:11.126433
+2026-05-07 11:07:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:21.147096500
+2026-05-07 11:07:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:31.170894700
+2026-05-07 11:07:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:41.201959
+2026-05-07 11:07:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:07:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:07:51.235091
+2026-05-07 11:07:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:01.259586900
+2026-05-07 11:08:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:11.290974800
+2026-05-07 11:08:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:21.323620800
+2026-05-07 11:08:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:31.348088200
+2026-05-07 11:08:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:41.372186300
+2026-05-07 11:08:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:08:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:08:51.391587300
+2026-05-07 11:08:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:01.432685900
+2026-05-07 11:09:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:11.458601800
+2026-05-07 11:09:11 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:21.489611200
+2026-05-07 11:09:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:31.520372600
+2026-05-07 11:09:31 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:41.552628700
+2026-05-07 11:09:41 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:09:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:09:51.584411400
+2026-05-07 11:09:51 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:10:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:01.621404300
+2026-05-07 11:10:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 2
+2026-05-07 11:10:01 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:10:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:10:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: 6558d190-aae8-4780-957a-3a4a90e175bc
+2026-05-07 11:10:02 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Executing job: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:10:03 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Webhook response status=200 OK
+2026-05-07 11:10:03 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.job.executor.JobExecutor |
+                msg=Job executed successfully: e2765224-596f-4038-a83c-5bd5be3d2f38
+2026-05-07 11:10:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:13.252951700
+2026-05-07 11:10:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:10:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:23.284320200
+2026-05-07 11:10:23 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:10:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:33.328919300
+2026-05-07 11:10:33 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:10:43 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:43.360685100
+2026-05-07 11:10:43 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:10:53 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:10:53.378964900
+2026-05-07 11:10:53 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:11:03 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:11:03.413014500
+2026-05-07 11:11:03 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:11:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Checking for pending jobs at 2026-05-07T11:11:13.456569600
+2026-05-07 11:11:13 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=scheduling-1 |
+                logger=c.m.j.j.s.JobSchedulerProcessor |
+                msg=Jobs found: 0
+2026-05-07 11:11:20 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=o.s.boot.tomcat.GracefulShutdown |
+                msg=Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-07 11:11:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=tomcat-shutdown |
+                logger=o.s.boot.tomcat.GracefulShutdown |
+                msg=Graceful shutdown complete
+2026-05-07 11:11:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=o.s.o.j.LocalContainerEntityManagerFactoryBean |
+                msg=Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-07 11:11:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown initiated...
+2026-05-07 11:11:21 |
+                level=INFO  |
+                requestId= |
+                method= |
+                path= |
+                thread=SpringApplicationShutdownHook |
+                logger=com.zaxxer.hikari.HikariDataSource |
+                msg=HikariPool-1 - Shutdown completed.
