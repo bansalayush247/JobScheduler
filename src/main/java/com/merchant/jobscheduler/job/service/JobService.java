@@ -2,7 +2,6 @@ package com.merchant.jobscheduler.job.service;
 
 import com.merchant.jobscheduler.job.entity.ScheduledJob;
 import com.merchant.jobscheduler.job.enums.JobStatus;
-import com.merchant.jobscheduler.job.constants.JobConstants;
 import com.merchant.jobscheduler.job.executor.JobExecutor;
 import com.merchant.jobscheduler.job.repository.ScheduledJobRepository;
 import com.merchant.jobscheduler.job.dto.UpdateJobRequest;

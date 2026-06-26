@@ -9,6 +9,7 @@ import net.javacrumbs.shedlock.spring.annotation.SchedulerLock;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 
 import org.springframework.stereotype.Component;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -16,6 +17,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.UUID;
 
 @Component
 @EnableScheduling
@@ -35,25 +37,48 @@ public class JobSchedulerProcessor {
     @SchedulerLock(name = "jobSchedulerLock", lockAtMostFor = "30s")
     public void pollAndExecuteJobs() {
 
-        log.info("Checking for pending jobs at {}", LocalDateTime.now());
+        String cronId = UUID.randomUUID().toString();
 
-        List<ScheduledJob> jobs = repository.findByNextExecutionTimeBeforeAndStatusIn(
-                        LocalDateTime.now(),
-                        List.of(JobStatus.PENDING, JobStatus.RETRY_SCHEDULED)
-                );
+        MDC.put("cronId", cronId);
 
-        log.info("Jobs found: {}", jobs.size());
+        try {
 
-        for (ScheduledJob job : jobs) {
+            log.info("Checking for pending jobs at {}", LocalDateTime.now());
 
-            log.info("Executing job: {}", job.getId());
+            List<ScheduledJob> jobs =
+                    repository.findByNextExecutionTimeBeforeAndStatusIn(
+                            LocalDateTime.now(),
+                            List.of(
+                                    JobStatus.PENDING,
+                                    JobStatus.RETRY_SCHEDULED
+                            )
+                    );
 
-            try {
-                service.processJob(job);
-            } catch (Exception ex) {
+            log.info("Jobs found: {}", jobs.size());
 
-                log.error("Job execution failed for jobId={}", job.getId(), ex);
+            for (ScheduledJob job : jobs) {
+
+                MDC.put("jobId", job.getId().toString());
+
+                try {
+
+                    log.info("Executing job");
+
+                    service.processJob(job);
+
+                } catch (Exception ex) {
+
+                    log.error("Job execution failed", ex);
+
+                } finally {
+
+                    MDC.remove("jobId");
+                }
             }
+
+        } finally {
+
+            MDC.remove("cronId");
         }
     }
 }

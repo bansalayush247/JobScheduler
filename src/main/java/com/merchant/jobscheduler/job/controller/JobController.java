@@ -83,14 +83,22 @@ public class JobController {
         if (!repository.existsById(id)) {
             log.warn("Job not found jobId={}", id);
 
-            return ResponseEntity.status(404).body("Job not found");
+            return ResponseEntity.status(404).body(  new ApiResponse<>(
+                    false,
+                    "Job not found",
+                    id.toString()
+            ));
         }
 
         repository.deleteById(id);
 
         log.info("Job deleted successfully jobId={}", id);
 
-        return ResponseEntity.ok("Job deleted successfully");
+        return ResponseEntity.ok(  new ApiResponse<>(
+                true,
+                "Job deleted successfully",
+                id.toString()
+        ));
     }
 
     @PutMapping("/{id}")

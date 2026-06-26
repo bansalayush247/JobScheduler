@@ -25,7 +25,9 @@
         </rollingPolicy>
 
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} | level=%-5level | requestId=%X{requestId} | method=%X{method} | path=%X{path} | thread=%thread | logger=%logger{36} | msg=%msg%n</pattern>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} | level=%-5level | requestId=%X{requestId} | cronId=%X{cronId} | jobId=%X{jobId} | method=%X{method} | path=%X{path} | thread=%thread | logger=%logger{36} | msg=%msg%n
+            </pattern>
         </encoder>
 
     </appender>
